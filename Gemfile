@@ -5,9 +5,9 @@ gem "paperclip"
 gem 'jquery-ui-rails'
 gem 'jquery-turbolinks'
 
-group :production do
-  gem 'mysql2'
-end
+#group :production do
+  gem 'mysql2', '~> 0.3.20'
+#end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
