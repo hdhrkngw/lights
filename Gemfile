@@ -5,6 +5,14 @@ gem "paperclip"
 gem 'jquery-ui-rails'
 gem 'jquery-turbolinks'
 
+
+gem 'rb-readline'
+gem 'unicorn'
+gem 'capistrano'
+gem 'capistrano-rails'
+gem 'capistrano-bundler'
+
+
 #group :production do
   gem 'mysql2', '~> 0.3.20'
 #end
